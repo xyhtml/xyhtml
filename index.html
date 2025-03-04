@@ -3,11 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
+    <title>Instruction manual</title>
 </head>
+
+<style>
+    html, body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 11px;
+        overflow: hidden;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 0 2rem;
+        box-sizing: border-box;
+    }
+
+    p {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .p_one {
+        font-size: 2.2rem;
+        color: #4db0c4;
+        padding: 0 0 1.8rem 0;
+    }
+
+    .p_two {
+        padding: 0 0 1.8rem 0;
+    }
+
+    .p_four {
+        padding: 1.8rem 0 0 0;
+    }
+
+    .link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .link > a {
+        color: #00aacb;
+        padding: 0 1rem;
+    }
+</style>
 <body>
-<h1>欢迎来到我的个人主页！</h1>
-<p>你好，我是 [你的名字]，这是我的 Gitee 主页。</p>
-<a href="data/echarts.txt" download="TEST.txt">TEST LINk</a>
+<div class="box">
+    <p class="p_one">We are very sorry for we did not provide paper manual, this is for environmental protection.</p>
+    <p class="p_two">BECAUSE MANUALS IN FIVE LANGUAGES CONSUME 35 SHEETS OE PAPER, THE POINT IS YOU MAY NOT NEED MANUALS
+        IN THE OTHER
+        4 LANGUAGES.</p>
+    <p>THANK YOU FOR YOUR CONTRIBUTION TO ENVIRONMENTAL PROTECTION</p>
+    <p class="p_four">You can download the PDF manual</p>
+
+    <div class="link">
+        <a href="data/English.pdf" download="English.pdf">English</a>
+        <a href="data/Deutsch.pdf" download="Deutsch.pdf">Deutsch</a>
+        <a href="data/Español.pdf" download="Español.pdf">Español</a>
+        <a href="data/Français.pdf" download="Français.pdf">Français</a>
+        <a href="data/Italiano.pdf" download="Italiano.pdf">Italiano</a>
+    </div>
+</div>
 </body>
 </html>
